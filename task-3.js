@@ -24,7 +24,6 @@ console.log(
     lorence: 99,
   })
 ); // lorence
-
 console.log(
   findBestEmployee({
     poly: 12,

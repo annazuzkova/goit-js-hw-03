@@ -12,3 +12,5 @@ for (const key of keys) {
   console.log(`${key}: ${user[key]}`);
 }
 console.log(keys);
+
+const { name, age, hobby, premium } = user;
