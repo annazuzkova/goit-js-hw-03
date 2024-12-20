@@ -6,16 +6,9 @@ const products = [
 ];
 
 const getAllPropValues = function (arr, prop) {
-  let allProp = [];
-  for (const product of arr) {
-    const arrayOfObject = Object.entries(product);
-    for (const element of arrayOfObject) {
-      if (element[0] === prop) {
-        allProp.push(element[1]);
-      }
-    }
-  }
-  return allProp;
+  return arr
+    .map(({ [prop]: value }) => value)
+    .filter((value) => value !== undefined);
 };
 
 /*

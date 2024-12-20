@@ -1,6 +1,7 @@
 const countProps = function (obj) {
   // твій код
-  return Object.values(obj).length;
+  const { length } = Object.values(obj);
+  return length;
 };
 
 /*

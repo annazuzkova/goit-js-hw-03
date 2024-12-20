@@ -6,7 +6,6 @@ const countTotalSalary = function (employees) {
   }
   return sumOfSalary;
 };
-
 /*
  * Викличи функції для перевірки працездатності твоєї реалізації.
  */
